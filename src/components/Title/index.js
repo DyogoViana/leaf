@@ -1,7 +1,7 @@
 import React from 'react';
 
-function Title() {
-    return <h1>Follow the white rabbit</h1>
+function Title({children}) {
+    return <h1>{children}</h1>
 }
 
 export default Title;
